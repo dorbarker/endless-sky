@@ -853,3 +853,58 @@ mission "FW Bulk Refugees [0]"
 	on complete
 		payment 5000 180
 		dialog phrase "free worlds thanked refugee transport"
+
+phrase "free worlds military cargo payment"
+	word
+		`The quartermaster meets you to supervise unloading your cargo. Once the delivery is unloaded, inspected, and verified, the quartmaster authorizes your payment of <payment>.`
+		`After taking receipt of the shipment of materiel, the quartermaster grimaces and thanks you with, "The troops will appreciate this." You receive payment of <payment>.`
+		`An eager junior officer is there to greet you at the landing pad. "With these, we'll be able to give 'em hell!" he says. You receive payment of <payment>.`
+
+mission "FW Military Cargo [0]"
+	job
+	repeat
+	name `Military cargo to <planet>`
+	description `Logistics officers require <cargo> to be transported directly from the factories of <origin> to a forward base on <destination> by <date>. Payment of <payment> is authorized.`
+	deadline 1 1
+	cargo "Military" 10 8 0.25
+	to offer
+		random < 15
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		attributes "factory"
+	destination
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 10000 150
+		dialog phrase "free worlds military cargo payment"
+
+mission "FW Military Cargo [1]"
+	job
+	repeat
+	name `Military cargo to <planet>`
+	description `Logistics officers require <cargo> to be transported directly from the factories of <origin> to a forward base on <destination> by <date>. Payment of <payment> is authorized.`
+	deadline 1 1
+	cargo "Military" 10 8 0.25
+	to offer
+		random < 10
+		has "salary: Free Worlds"
+		not "event: fw armistice"
+	source
+		government "Free Worlds"
+		attributes "factory"
+	destination
+		government "Free Worlds"
+		neighbor
+			neighbor government "Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 10000 150
+		dialog phrase "free worlds military cargo payment"
+
