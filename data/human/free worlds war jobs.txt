@@ -875,6 +875,7 @@ mission "FW Military Cargo [0]"
 		government "Free Worlds"
 		attributes "factory"
 	destination
+		distance 1 8
 		government "Free Worlds"
 		neighbor government "Republic"
 	on visit
@@ -898,6 +899,7 @@ mission "FW Military Cargo [1]"
 		government "Free Worlds"
 		attributes "factory"
 	destination
+		distance 1 8
 		government "Free Worlds"
 		neighbor government "Republic"
 	on visit
