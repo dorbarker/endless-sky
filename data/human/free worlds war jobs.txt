@@ -876,8 +876,7 @@ mission "FW Military Cargo [0]"
 		attributes "factory"
 	destination
 		government "Free Worlds"
-		neighbor
-			neighbor government "Republic"
+		neighbor government "Republic"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -900,8 +899,7 @@ mission "FW Military Cargo [1]"
 		attributes "factory"
 	destination
 		government "Free Worlds"
-		neighbor
-			neighbor government "Republic"
+		neighbor government "Republic"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
