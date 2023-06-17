@@ -622,3 +622,18 @@ mission "Sol-Bound Shuttle"
 			label end
 			`	You say your goodbyes as you board your ships. Although you are both captains, the trajectory of your lives have taken very different courses.`
 				decline
+
+mission "Minor Earthquake while Landing"
+	landing
+	minor
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes tectonic
+	to offer
+		random < 1
+	on offer
+		conversation
+			`Just as you were guiding <ship> to a gentle landing at <origin>, your ship jerks to an abrupt halt as it hits the ground both unexpectedly early and hard. A rough landing, but nothing that would cause any damage. Turning off the engines, instead of the familiar silence of an idle ship, you instead hear and feel a continued rumbling. Loose items rattle.`
+			`	It's at this point your attention shifts to the people outside in the spaceport. Everyone is either crouched down or gripping the nearest solid object; a few have been knocked to the ground.`
+			`	Several moments pass, and the shaking stops. The locals straighten out their clothes and carry on with their day. Some of the other off-world captains look a bit more perturbed.
+				decline
