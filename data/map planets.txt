@@ -1640,7 +1640,7 @@ planet Geminus
 		fleet "Large Republic" 18
 
 planet Gemstone
-	attributes "dirt belt" mining
+	attributes "dirt belt" mining tectonic
 	landscape land/lava7-sfiera
 	description `Gemstone is a hot and unpleasant world, mostly due to a smoggy atmosphere high in methane. Much of the surface is covered in rugged mountains, making ground transport very difficult. However, the powerful tectonic forces here have created rich deposits of diamonds, emeralds, and sapphires, which are mined for use in jewelry and certain electronic components.`
 	description `	Mining a tectonically active world is an insane project. Earthquakes cause frequent cave-ins, but the potential for riches draws miners here despite high mortality rates. Most miners are dirt poor as a result of being paid on commission for their finds, but they are full of stories of some distant acquaintance who became mind-bogglingly wealthy after striking a previously untapped gemstone deposit.`
@@ -2491,7 +2491,7 @@ planet Luna
 		fleet "Large Republic" 10
 
 planet Maelstrom
-	attributes frontier mining north
+	attributes frontier mining north tectonic
 	landscape land/mountain21-harro
 	description `Maelstrom is a stormy, geologically young world with towering mountains and frequent earthquakes. Most of the large cities are near the center of the planet's main continent, where the iron beds from an ancient ocean are exposed. Maelstrom is one of the chief exporters of iron, copper, gold, titanium, and other metals to Ada, where Lovelace Labs and the associated industries have a continuous need for raw materials.`
 	description `	Extreme rock climbing is a hugely popular sport among the mining workers here, who have a tendency to be young, male, and reckless. The mountains are dramatic enough to even attract off-world climbers as tourists, though more than once a favorite climbing face has been sloughed off its mountain in an earthquake.`
@@ -2991,7 +2991,7 @@ planet "New Tibet"
 	security 0.1
 
 planet "New Tortuga"
-	attributes core "core pirate" factory pirate religious
+	attributes core "core pirate" factory pirate religious tectonic
 	landscape land/fog6
 	description `A planet of violent storms and frequent earthquakes, New Tortuga does not have a lot to offer the average spacefarer. The most significant settlements on the planet are built predominantly underground, far from any fault lines, with only obscure, hardened access areas. Combined with the fortress-like blast doors that blockade the spaceport entrances, New Tortuga is the perfect place for those looking for somewhere to hide.`
 	description `	Most of the inhabitants of this planet are Syndicate dissidents who mainly support themselves through manufacturing. The Syndicate often destroys pirate factories at their borders, but their fleets do not find the monetary cost of venturing as far as New Tortuga worth the benefit. Here, shipyards, factories, and outfitters provide a continuous supply of goods and services for the system.`
@@ -3383,7 +3383,7 @@ planet Pyriphlegethon
 	government Uninhabited
 
 planet Quicksilver
-	attributes core mining volcanic
+	attributes core mining volcanic tectonic
 	landscape land/snow0
 	description `Quicksilver is a world of highly variable, violent weather: hurricanes, hail, and earth-shaking thunderstorms. Under the planet's crust, it is equally turbulent and unpredictable, leading to frequent earthquakes and volcanic activity.`
 	description `	Although Quicksilver has vast mineral resources, the tectonic activity makes underground mining far too dangerous. However, a few enterprising settlers work in surface mining and mountaintop removal. The results are ugly, but this is a far too inhospitable world for anyone to care what it looks like.`
@@ -4286,7 +4286,7 @@ planet Thule
 		fleet "Large Southern Pirates" 16
 
 planet Thunder
-	attributes forest rim
+	attributes forest rim tectonic
 	landscape land/mountain20-harro
 	description `When the first colonists landed, they thought that they had found a dream world on Thunder: perfect gravity, perfect temperature, perfect atmosphere. Unfortunately, they soon discovered that the planet has unusually high tectonic activity, enough that building anything higher than two stories is almost impossible. Because of the earthquakes, attracting settlers has always been difficult for Thunder, and right now the population is only a few million.`
 	spaceport `The spaceport's landing pads are all solid slabs of metal; poured concrete would be far too prone to cracking. The spaceport village itself is a sprawling collection of squat, sturdy buildings, and a sign near the entrance to the cargo warehouse reads, "Do not stack crates."`
