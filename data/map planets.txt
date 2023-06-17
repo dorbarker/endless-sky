@@ -3881,7 +3881,7 @@ planet Shroud
 		fleet "Large Republic" 14
 
 planet Siedi
-	attributes gegno vi
+	attributes gegno vi tectonic
 	landscape land/forest5
 	description `The gravitational pull of the nearby gas giant resulted in the large, bulky, mountainous surface of this planet. Tectonic shifts are very common, and the surface is marked with the wear and tear of massive tremors. Beneath the cracks, however, lies a rich source of materials that the Vi quickly capitalized on for their nearby worlds.`
 	spaceport `The spaceport is haphazardly built into the side of a smaller mountain, and every now and then you can feel a very faint rumbling from below. You're not sure if it is beneath you or somewhere off in the distance. Construction work around the spaceport is ongoing, but it is more likely because the Vi are busy finding new places to mine for materials rather than making improvements to the spaceport itself.`
